@@ -10,8 +10,8 @@ import (
 
 	"github.com/free5gc/openapi/models"
 	"github.com/free5gc/openapi/nrf/NFDiscovery"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
 )
 
 type nbsfService struct {

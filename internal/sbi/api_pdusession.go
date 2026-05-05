@@ -9,7 +9,7 @@ import (
 
 	"github.com/free5gc/openapi"
 	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/logger"
 	"github.com/free5gc/util/metrics/sbi"
 	"github.com/free5gc/util/validator"
 )

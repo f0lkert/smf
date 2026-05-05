@@ -9,9 +9,9 @@ import (
 	"github.com/free5gc/openapi/models"
 	"github.com/free5gc/pfcp"
 	"github.com/free5gc/pfcp/pfcpType"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
-	"github.com/free5gc/smf/internal/pfcp/message"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/pfcp/message"
 )
 
 func (p *Processor) ToBeAssociatedWithUPF(smfPfcpContext context.Context, upf *smf_context.UPF) {

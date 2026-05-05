@@ -1,7 +1,7 @@
 package context
 
 import (
-	"github.com/free5gc/smf/pkg/factory"
+	"github.com/f0lkert/smf/pkg/factory"
 )
 
 func SetupSMFContext(config *factory.Config) error {

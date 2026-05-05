@@ -1,8 +1,8 @@
 package processor
 
 import (
-	"github.com/free5gc/smf/internal/sbi/consumer"
-	"github.com/free5gc/smf/pkg/app"
+	"github.com/f0lkert/smf/internal/sbi/consumer"
+	"github.com/f0lkert/smf/pkg/app"
 )
 
 const (

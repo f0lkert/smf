@@ -9,10 +9,10 @@ import (
 
 	"github.com/free5gc/nas/nasType"
 	"github.com/free5gc/openapi/models"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/sbi/consumer"
-	"github.com/free5gc/smf/pkg/factory"
-	"github.com/free5gc/smf/pkg/service"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/sbi/consumer"
+	"github.com/f0lkert/smf/pkg/factory"
+	"github.com/f0lkert/smf/pkg/service"
 )
 
 var testConfig = factory.Config{

@@ -11,9 +11,9 @@ import (
 	"github.com/free5gc/openapi/models"
 	"github.com/free5gc/openapi/udm/SubscriberDataManagement"
 	"github.com/free5gc/openapi/udm/UEContextManagement"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
-	"github.com/free5gc/smf/internal/util"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/util"
 	sbi_metrics "github.com/free5gc/util/metrics/sbi"
 )
 

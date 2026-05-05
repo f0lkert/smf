@@ -7,7 +7,7 @@ import (
 	"github.com/free5gc/openapi"
 	"github.com/free5gc/openapi/models"
 	"github.com/free5gc/openapi/smf/PDUSession"
-	"github.com/free5gc/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/logger"
 	sbi_metrics "github.com/free5gc/util/metrics/sbi"
 )
 

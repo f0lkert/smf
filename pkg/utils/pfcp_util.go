@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
-	"github.com/free5gc/smf/internal/pfcp"
-	"github.com/free5gc/smf/internal/pfcp/udp"
-	"github.com/free5gc/smf/pkg/service"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/pfcp"
+	"github.com/f0lkert/smf/internal/pfcp/udp"
+	"github.com/f0lkert/smf/pkg/service"
 )
 
 func InitPFCPFunc(pCtx context.Context) (func(a *service.SmfApp), func()) {

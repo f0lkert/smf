@@ -9,8 +9,8 @@ import (
 
 	"github.com/free5gc/pfcp"
 	"github.com/free5gc/pfcp/pfcpUdp"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
 )
 
 const MaxPfcpUdpDataSize = 1024

@@ -7,10 +7,10 @@ import (
 	"github.com/free5gc/pfcp"
 	"github.com/free5gc/pfcp/pfcpType"
 	"github.com/free5gc/pfcp/pfcpUdp"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
-	pfcp_message "github.com/free5gc/smf/internal/pfcp/message"
-	"github.com/free5gc/smf/pkg/service"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
+	pfcp_message "github.com/f0lkert/smf/internal/pfcp/message"
+	"github.com/f0lkert/smf/pkg/service"
 )
 
 func HandlePfcpHeartbeatRequest(msg *pfcpUdp.Message) {

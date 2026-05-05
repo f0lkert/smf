@@ -1,4 +1,4 @@
-module github.com/free5gc/smf
+module github.com/f0lkert/smf
 
 go 1.25.5
 

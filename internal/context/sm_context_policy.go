@@ -5,8 +5,8 @@ import (
 	"reflect"
 
 	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/smf/internal/logger"
-	"github.com/free5gc/smf/pkg/factory"
+	"github.com/f0lkert/smf/internal/logger"
+	"github.com/f0lkert/smf/pkg/factory"
 )
 
 // SM Policy related operation

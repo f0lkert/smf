@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/smf/pkg/factory"
+	"github.com/f0lkert/smf/pkg/factory"
 )
 
 func TestSnssaiInfoItem(t *testing.T) {

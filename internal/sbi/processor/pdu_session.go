@@ -18,10 +18,10 @@ import (
 	"github.com/free5gc/openapi/pcf/SMPolicyControl"
 	"github.com/free5gc/openapi/udm/SubscriberDataManagement"
 	"github.com/free5gc/pfcp/pfcpType"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/internal/logger"
-	smf_errors "github.com/free5gc/smf/pkg/errors"
-	"github.com/free5gc/smf/pkg/factory"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/internal/logger"
+	smf_errors "github.com/f0lkert/smf/pkg/errors"
+	"github.com/f0lkert/smf/pkg/factory"
 	"github.com/free5gc/util/metrics/sbi"
 )
 

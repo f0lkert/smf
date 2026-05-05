@@ -14,8 +14,8 @@ import (
 	"github.com/free5gc/pfcp"
 	"github.com/free5gc/pfcp/pfcpType"
 	"github.com/free5gc/pfcp/pfcpUdp"
-	"github.com/free5gc/smf/internal/logger"
-	"github.com/free5gc/smf/internal/pfcp/handler"
+	"github.com/f0lkert/smf/internal/logger"
+	"github.com/f0lkert/smf/internal/pfcp/handler"
 )
 
 type LogCapture struct {

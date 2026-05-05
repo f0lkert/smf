@@ -10,8 +10,8 @@ import (
 
 	"github.com/free5gc/nas/nasMessage"
 	"github.com/free5gc/pfcp/pfcpType"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/pkg/factory"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/pkg/factory"
 )
 
 var mockIPv4NodeID = &pfcpType.NodeID{

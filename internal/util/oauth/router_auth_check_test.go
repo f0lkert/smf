@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/smf/internal/util/oauth"
+	"github.com/f0lkert/smf/internal/util/oauth"
 )
 
 const (

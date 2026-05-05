@@ -9,8 +9,8 @@ import (
 	"github.com/free5gc/openapi/smf/PDUSession"
 	"github.com/free5gc/openapi/udm/SubscriberDataManagement"
 	"github.com/free5gc/openapi/udm/UEContextManagement"
-	smf_context "github.com/free5gc/smf/internal/context"
-	"github.com/free5gc/smf/pkg/app"
+	smf_context "github.com/f0lkert/smf/internal/context"
+	"github.com/f0lkert/smf/pkg/app"
 )
 
 type Consumer struct {
