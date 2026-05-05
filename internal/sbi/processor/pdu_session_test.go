@@ -27,7 +27,7 @@ import (
 	PDUSession_errors "github.com/f0lkert/smf/pkg/errors"
 	"github.com/f0lkert/smf/pkg/factory"
 	"github.com/f0lkert/smf/pkg/service"
-	"github.com/free5gc/util/httpwrapper"
+	"github.com/f0lkert/free5gc-fixup/httpwrapper"
 )
 
 var userPlaneConfig = factory.UserPlaneInformation{

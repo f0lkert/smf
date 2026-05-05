@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/free5gc/openapi/models"
-	"github.com/free5gc/openapi/oauth"
+	"github.com/f0lkert/free5gc-fixup/oauth"
 	"github.com/free5gc/pfcp/pfcpType"
 	"github.com/f0lkert/smf/internal/logger"
 	"github.com/f0lkert/smf/pkg/factory"
